@@ -263,7 +263,7 @@ include('includes/header.php'); ?>
 
 <script>
     function checkAvailabilityStudEmail() {
-        $("#loaderIcon").show();
+        $("#loaderIcon").sgihow();
         jQuery.ajax({
             url: "includes/check_availability.php",
             data: 'stud_email=' + $("#stud_email").val(),
